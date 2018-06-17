@@ -12,16 +12,18 @@
 		73F96C821FDE5BBB0054AB29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F96C801FDE5BBB0054AB29 /* Main.storyboard */; };
 		73F96C841FDE5BBB0054AB29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73F96C831FDE5BBB0054AB29 /* Assets.xcassets */; };
 		73F96C871FDE5BBB0054AB29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F96C851FDE5BBB0054AB29 /* LaunchScreen.storyboard */; };
+		73FBD9852003FC360033D094 /* hand.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 73FBD9842003FC360033D094 /* hand.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		73F96C791FDE5BBB0054AB29 /* Object Detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Object Detection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F96C791FDE5BBB0054AB29 /* Hand Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hand Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F96C7C1FDE5BBB0054AB29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73F96C7E1FDE5BBB0054AB29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		73F96C811FDE5BBB0054AB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73F96C831FDE5BBB0054AB29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73F96C861FDE5BBB0054AB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73F96C881FDE5BBB0054AB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73FBD9842003FC360033D094 /* hand.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = hand.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 		73F96C701FDE5BBB0054AB29 = {
 			isa = PBXGroup;
 			children = (
-				73F96C7B1FDE5BBB0054AB29 /* Object Detection */,
+				73F96C7B1FDE5BBB0054AB29 /* Hand Timer */,
 				73F96C7A1FDE5BBB0054AB29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +48,31 @@
 		73F96C7A1FDE5BBB0054AB29 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73F96C791FDE5BBB0054AB29 /* Object Detection.app */,
+				73F96C791FDE5BBB0054AB29 /* Hand Timer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		73F96C7B1FDE5BBB0054AB29 /* Object Detection */ = {
+		73F96C7B1FDE5BBB0054AB29 /* Hand Timer */ = {
 			isa = PBXGroup;
 			children = (
 				73F96C7C1FDE5BBB0054AB29 /* AppDelegate.swift */,
 				73F96C7E1FDE5BBB0054AB29 /* ViewController.swift */,
 				73F96C801FDE5BBB0054AB29 /* Main.storyboard */,
+				73FBD9842003FC360033D094 /* hand.mlmodel */,
 				73F96C831FDE5BBB0054AB29 /* Assets.xcassets */,
 				73F96C851FDE5BBB0054AB29 /* LaunchScreen.storyboard */,
 				73F96C881FDE5BBB0054AB29 /* Info.plist */,
 			);
-			path = "Object Detection";
+			path = "Hand Timer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		73F96C781FDE5BBB0054AB29 /* Object Detection */ = {
+		73F96C781FDE5BBB0054AB29 /* Hand Timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73F96C8B1FDE5BBB0054AB29 /* Build configuration list for PBXNativeTarget "Object Detection" */;
+			buildConfigurationList = 73F96C8B1FDE5BBB0054AB29 /* Build configuration list for PBXNativeTarget "Hand Timer" */;
 			buildPhases = (
 				73F96C751FDE5BBB0054AB29 /* Sources */,
 				73F96C761FDE5BBB0054AB29 /* Frameworks */,
@@ -79,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Object Detection";
+			name = "Hand Timer";
 			productName = "Object Detection";
-			productReference = 73F96C791FDE5BBB0054AB29 /* Object Detection.app */;
+			productReference = 73F96C791FDE5BBB0054AB29 /* Hand Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 73F96C741FDE5BBB0054AB29 /* Build configuration list for PBXProject "Object Detection" */;
+			buildConfigurationList = 73F96C741FDE5BBB0054AB29 /* Build configuration list for PBXProject "Hand Timer" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				73F96C781FDE5BBB0054AB29 /* Object Detection */,
+				73F96C781FDE5BBB0054AB29 /* Hand Timer */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73F96C7F1FDE5BBB0054AB29 /* ViewController.swift in Sources */,
+				73FBD9852003FC360033D094 /* hand.mlmodel in Sources */,
 				73F96C7D1FDE5BBB0054AB29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +280,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7L65JSHTUM;
-				INFOPLIST_FILE = "Object Detection/Info.plist";
+				INFOPLIST_FILE = "Hand Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RedRudy.Object-Detection";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RedRudy.Hand-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,9 +295,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7L65JSHTUM;
-				INFOPLIST_FILE = "Object Detection/Info.plist";
+				INFOPLIST_FILE = "Hand Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RedRudy.Object-Detection";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RedRudy.Hand-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,7 +307,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		73F96C741FDE5BBB0054AB29 /* Build configuration list for PBXProject "Object Detection" */ = {
+		73F96C741FDE5BBB0054AB29 /* Build configuration list for PBXProject "Hand Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73F96C891FDE5BBB0054AB29 /* Debug */,
@@ -312,7 +316,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73F96C8B1FDE5BBB0054AB29 /* Build configuration list for PBXNativeTarget "Object Detection" */ = {
+		73F96C8B1FDE5BBB0054AB29 /* Build configuration list for PBXNativeTarget "Hand Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73F96C8C1FDE5BBB0054AB29 /* Debug */,
